@@ -1,0 +1,60 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#000000">
+
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/florecitas" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="ℝ𝕖𝕕 𝔽𝕝𝕠𝕨𝕖𝕣𝕤"
+        android:onClick="openRedActivity"
+        android:textColor="#cc0000"
+        android:textSize="35sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="ℙ𝕦𝕣𝕡𝕝𝕖 𝔽𝕝𝕠𝕨𝕖𝕣𝕤"
+        android:onClick="openPurpleActivity"
+        android:textSize="35sp"
+        android:paddingTop="25sp"
+        android:textColor="#8d03bf"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="𝕎𝕙𝕚𝕥𝕖 𝔽𝕝𝕠𝕨𝕖𝕣𝕤"
+        android:onClick="openWhiteActivity"
+        android:textSize="35sp"
+        android:paddingTop="25sp"
+        android:textColor="#ffffff"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingTop="25sp"
+        android:text="𝕐𝕖𝕝𝕝𝕠𝕨 𝔽𝕝𝕠𝕨𝕖𝕣𝕤"
+        android:onClick="openYellowActivity"
+        android:textColor="#e5da0d"
+        android:textSize="35sp" />
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:src="@drawable/floresdeabajo"/>
+
+</LinearLayout>
